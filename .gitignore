@@ -1,0 +1,9 @@
+.envrc
+.idea/
+.vscode/
+*.retry
+*.pem
+ansible/roles/
+cli/
+workspace/
+tmp/

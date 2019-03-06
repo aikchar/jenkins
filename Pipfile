@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+ansible = "*"
+invoke = "*"
+passlib = "*"
+docker-compose = "*"
+certbot = "*"
+certbot-dns-digitalocean = "*"
+
+[requires]
+python_version = "3.7"

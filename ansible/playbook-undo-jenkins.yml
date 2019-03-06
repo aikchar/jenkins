@@ -1,0 +1,7 @@
+---
+- hosts: leader
+  roles:
+    - jenkins
+    - docker
+  vars:
+    undo: yes

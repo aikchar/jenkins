@@ -1,0 +1,6 @@
+---
+- hosts: leader
+  roles:
+    - docker
+    - role: jenkins
+      password: CHANGEME
